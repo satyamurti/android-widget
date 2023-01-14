@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#191919"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/stock_name1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="YESBANK.NS"
+        android:textColor="#ebebeb"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/stock_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Yes Bank Limited"
+        android:textColor="#7c7c7e"
+        android:textSize="14sp"
+        android:layout_alignStart="@id/stock_name1"
+        android:layout_below="@id/stock_name1" />
+
+    <!--    <com.github.mikephil.charting.charts.LineChart-->
+    <!--        android:id="@+id/stock_chart"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_alignBottom="@id/stock_label"-->
+    <!--        android:layout_toEndOf="@id/stock_name"-->
+    <!--        android:layout_alignTop="@id/stock_name" />-->
+
+    <TextView
+        android:id="@+id/stock_price1"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14.25"
+        android:textColor="#ebebeb"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/stock_dip1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes Bank Limited"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_alignStart="@id/stock_price1"
+        android:layout_alignEnd="@id/stock_price1"
+        android:layout_below="@id/stock_price1" />
+
+    <TextView
+        android:id="@+id/stock_name2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="YESBANK.NS"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_label1"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/stock_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Yes Bank Limited"
+        android:textColor="#7c7c7e"
+        android:textSize="14sp"
+        android:layout_alignStart="@id/stock_name2"
+        android:layout_below="@id/stock_name2" />
+    <TextView
+        android:id="@+id/stock_price2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14.25"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_dip1"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:id="@+id/stock_dip2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stock_price2"
+        android:layout_alignStart="@+id/stock_price2"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:text="+3.1%"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/stock_name3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="YESBANK.NS"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_label2"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/stock_label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Yes Bank Limited"
+        android:textColor="#7c7c7e"
+        android:textSize="14sp"
+        android:layout_alignStart="@id/stock_name3"
+        android:layout_below="@id/stock_name3" />
+    <TextView
+        android:id="@+id/stock_price3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14.25"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_dip2"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/stock_dip3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stock_price3"
+        android:layout_alignStart="@+id/stock_price3"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:text="+3.1%"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/stock_name4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="YESBANK.NS"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_label3"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/stock_label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Yes Bank Limited"
+        android:textColor="#7c7c7e"
+        android:textSize="14sp"
+        android:layout_alignStart="@id/stock_name4"
+        android:layout_below="@id/stock_name4" />
+    <TextView
+        android:id="@+id/stock_price4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="14.25"
+        android:textColor="#ebebeb"
+        android:layout_below="@id/stock_dip3"
+        android:layout_alignParentRight="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/stock_dip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stock_price4"
+        android:layout_alignStart="@+id/stock_price4"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:text="+3.1%"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>
